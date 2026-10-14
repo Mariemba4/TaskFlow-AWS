@@ -1,0 +1,47 @@
+# Node / Vite
+node_modules/
+dist/
+*.log
+*.tsbuildinfo
+coverage/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# AWS SAM / build artifacts
+.aws-sam/
+samconfig.toml
+packaged.yaml
+*.zip
+
+# Secrets and local config (never commit)
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa*
+id_ed25519*
+*.secret
+secrets/
+credentials
+credentials.*
+.aws/
+.npmrc
+.pypirc
+*.tfstate*
+
+# AI assistant / editor / OS local state
+.claude/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
