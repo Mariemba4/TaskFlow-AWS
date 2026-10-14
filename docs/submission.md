@@ -49,6 +49,8 @@ Defined in [`template.yaml`](../template.yaml); none of it exists in AWS:
 
 ## How to verify (no AWS account needed)
 
+Requires Python 3.12 and Node.js 22 LTS (22.22.2 or later; the test tooling needs it).
+
 ```powershell
 # Backend tests and template validation (from the repository root)
 python -m venv .venv ; .\.venv\Scripts\Activate.ps1 ; pip install -r requirements.txt
